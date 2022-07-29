@@ -1,21 +1,21 @@
 
 /* App Window */
-@define-color bg_color rgba(234,234,234, 0.97);
+@define-color bg_color #f9f9f9;
 @define-color window_bg @bg_color;
 @define-color window_border_color rgba(200,200,200, 0.25);
 @define-color top_border_color rgba(200,200,200, 0.95);
 @define-color prefs_backgroud #999999;
 
 /* Input */
-@define-color selected_bg_color #0860f2;
+@define-color selected_bg_color #4285F4;
 @define-color selected_fg_color #d5e5ff;
 @define-color input_color #222222;
-@define-color caret_color darker(@input_color);
+@define-color caret_color #a4a4a4;
 
 /* Result items */
 @define-color item_name rgba(22,22,22, 0.70);
 @define-color item_text #999999;
-@define-color item_box_selected #0860f2;
+@define-color item_box_selected #4285F4;
 @define-color item_text_selected #d5e5ff;
 @define-color item_name_selected rgba(255,255,255, 0.70);
 @define-color item_shortcut_color rgba(0,0,0, 0.25);
@@ -26,18 +26,24 @@
 .app {
     background-color: @window_bg;
     border: 1px solid @window_border_color;;
-    border-radius: 14px;
-    box-shadow: 0 8px 6px -4px rgba(0,0,0, 0.30);
-    margin:0 -12px;
+    border-radius: 25px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin:1 -10;
+
+
 }
 
 .input {
+
     color: @input_color;
-    padding: 0;
+    padding: 10;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .item-box {
-    border-radius: 12px;
+    border-radius: 25px;
     padding: 0;
 }
 
@@ -76,7 +82,7 @@
 }
 
 .prefs-btn {
-    opacity: 0.4;
+    opacity: 0;
 }
 .prefs-btn * {
     box-shadow: none;
@@ -93,10 +99,13 @@
 }
 
 .item-frame  {
-    border-top: 1px solid;
+    /*border-top: 1px solid;*/
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 6%, rgba(255, 255, 255, 0) 6%, rgb(221, 221, 221)  6%, rgba(221, 221, 221, 1) 51%, rgba(221, 221, 221, 1) 94%, rgba(255, 255, 255, 0) 94%, rgba(255, 255, 255, 0) 100%);
 }
 .item-frame:first-child {
     border-width: 0px;
+}
+.item-frame:last-child {
+    padding-bottom: 10px;
 }

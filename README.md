@@ -10,7 +10,6 @@ Inspired by Google iOS widget.
 ## Installation
 
 ```sh
-mkdir -p ~/.config/ulauncher/user-themes
-git clone https://github.com/ilyadavydyuk/Google-Light-ulauncher.git \
-  ~/.config/ulauncher/user-themes/WhiteSur-Light-ulauncher
+Place theme folder to 
+ ~/.config/ulauncher/user-themes
 ```

@@ -1,12 +1,12 @@
 {
     "manifest_version": "1",
-    "name": "Google-White-light",
-    "display_name": "Google White Light",
+    "name": "Google-White",
+    "display_name": "Google White",
     "extend_theme": "light",
     "css_file": "theme.css",
     "css_file_gtk_3.20+": "theme-gtk-3.20.css",
     "matched_text_hl_colors": {
-        "when_selected": "#fff",
-        "when_not_selected": "#4285F4"
+        "when_selected": "#222222",
+        "when_not_selected": "#787878	"
     }
 }

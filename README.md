@@ -6,9 +6,9 @@ Inspired by Google iOS widget.
 ## Screenshots
 
 ### White
-![](https://imgur.com/a/jBkr4P4)
+![](https://i.imgur.com/VaroQPQ.png)
 ### Dark
-![](https://imgur.com/drNYkC9)
+![](https://i.imgur.com/drNYkC9.png)
 
 ## Installation
 

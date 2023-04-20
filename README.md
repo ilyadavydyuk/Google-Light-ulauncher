@@ -1,11 +1,14 @@
-# Google White Light ulauncher
+# Google White/Dark uLauncher theme
 
-A theme for Ulauncher Google White Light Light theme.  
 Forked from [WhiteSur-Light-ulauncher](https://github.com/Raayib/WhiteSur-Light-ulauncher).  
 Inspired by Google iOS widget.
 
-## Screenshot
-![](https://i.imgur.com/aUxaaVT.png)
+## Screenshots
+
+### White
+![](https://imgur.com/a/jBkr4P4)
+### Dark
+![](https://imgur.com/drNYkC9)
 
 ## Installation
 
